@@ -8,3 +8,29 @@ License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: unite
 */
+.navbar-default .navbar-nav>li>a{
+    color:white;
+}
+.navbar-default .navbar-nav>li>a:hover{
+    color:red;
+}
+.taxonomy-item{
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.taxonomy-item span{
+    color: blue;
+}
+i{
+    margin: 5px;
+}
+.film-taxonomy{
+    margin-top: 50px;
+}
